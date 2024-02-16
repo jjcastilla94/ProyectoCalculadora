@@ -15,8 +15,18 @@ public class Calculadora {
         return numero1 + numero2;
     }
 
+
     public int resta() {
         return numero1 - numero2;
     }
     
+
+    public int multiplicacion() {
+        return numero1 * numero2;
+    }
+
+    public int division() {
+        return numero1 / numero2;
+    }
+
 }
